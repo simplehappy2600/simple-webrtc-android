@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_launcher"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="bottom|left"
+	        android:layout_weight="1"
+	        android:textSize="15dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_login_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:id="@+id/layout_ip_info"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+		    <TextView
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:gravity="bottom|left"
+		        android:text="@string/ip"
+		        android:layout_weight="0.22"
+		        android:textSize="15dp" />
+		    
+		    <EditText
+		        android:id="@+id/ipaddr"
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.76"
+		        android:inputType="none"
+		        android:textSize="15dp" >
+
+		        <requestFocus />
+		    </EditText>
+		    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/layout_port_info"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+		    <TextView
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:gravity="bottom|left"
+		        android:text="@string/port"
+		        android:layout_weight="0.22"
+		        android:textSize="15dp" />
+		    
+		    <EditText
+		        android:id="@+id/port"
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="0.76"
+		        android:inputType="none"
+		        android:textSize="15dp" >
+		    </EditText>
+		    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/layout_name_info"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+		    <TextView
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:gravity="bottom|left"
+		        android:text="@string/name"
+		        android:layout_weight="0.22"
+		        android:textSize="15dp" />
+		    
+		    <EditText
+		        android:id="@+id/name"
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:inputType="none"
+		        android:layout_weight="0.76"
+		        android:textSize="15dp" >
+		    </EditText>
+		    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:id="@+id/layout_password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+		    <TextView
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:gravity="bottom|left"
+		        android:text="@string/password"
+		        android:layout_weight="0.22"
+		        android:textSize="15dp" />
+		    
+		    <EditText
+		        android:id="@+id/password"
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:inputType="none"
+		        android:layout_weight="0.76"
+		        android:textSize="15dp" >
+		    </EditText>
+		    
+	    </LinearLayout>
+	    
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="bottom|left"
+	        android:background="#ffffff"
+	        android:layout_weight="1"
+	        android:textSize="1dp" />
+    </LinearLayout>
+    
+	    <LinearLayout
+	        android:id="@+id/layout_toname_info"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	        
+		    <TextView
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:gravity="bottom|left"
+		        android:text="@string/desname"
+		        android:layout_weight="0.22"
+		        android:textSize="15dp" />
+		    
+		    <EditText
+		        android:id="@+id/desname"
+		        android:layout_width="0dip"
+		        android:layout_height="wrap_content"
+		        android:inputType="none"
+		        android:layout_weight="0.76"
+		        android:textSize="15dp" >
+		    </EditText>
+		    
+	    </LinearLayout>
+    
+    </LinearLayout>
+    
+
+</LinearLayout>
