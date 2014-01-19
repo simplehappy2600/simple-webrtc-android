@@ -235,11 +235,9 @@ public class AppRTCDemoActivity extends Activity {
 		// PeerConnection.IceServer iceserver = new PeerConnection.IceServer("stun:61.129.90.140");
 		//PeerConnection.IceServer turnserver = new PeerConnection.IceServer("turn:woogeen@61.129.90.140:4478", "", "master");
 		
-		//PeerConnection.IceServer iceserver = new PeerConnection.IceServer("stun:stun.l.google.com:19302");
-		PeerConnection.IceServer iceserver = new PeerConnection.IceServer("stun:172.16.42.39:3478");
-		//PeerConnection.IceServer iceserver = new PeerConnection.IceServer("stun:stunserver.org:3478");
-		//PeerConnection.IceServer turnserver = new PeerConnection.IceServer("turn:eye@218.206.129.158:5000?transport=udp", "wanlian", "");
+		PeerConnection.IceServer iceserver = new PeerConnection.IceServer("stun:stun.l.google.com:19302");		
 		
+		//PeerConnection.IceServer iceserver = new PeerConnection.IceServer("stun:stunserver.org:3478");		
 		//PeerConnection.IceServer iceserver = new PeerConnection.IceServer("stun:192.168.100.108:3478");		
 		iceServers.add(iceserver);
 		//iceServers.add(turnserver);
